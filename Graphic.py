@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import numpy as np
-import math
 
 plt.figure()
 
@@ -14,8 +13,7 @@ plt.axvline(0, color='black',linewidth=0.5, ls='-')  # Вертикальная 
 
 plt.xlabel('X')
 plt.ylabel('Y')
-#сетка
-plt.grid(color = 'gray', linestyle = '--', linewidth = 0.5)
+
 
 x=np.linspace(-5, 5, 100)
 y= x**2/2-2
